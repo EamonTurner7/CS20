@@ -26,6 +26,10 @@ public class Rectangle
 		//Get the width value from the user
 		length = userinput.nextInt();
 		
+		
+		//My Name is Eamon
+		
+		
 		//display the width and length
 		System.out.println("The width is: " + width);
 		System.out.print("The length is: " + length);
