@@ -1,5 +1,6 @@
 package SkillBuilders;
 
+//Import scanner into project
 import java.util.Scanner;
 
 public class Digits
@@ -7,8 +8,9 @@ public class Digits
 
 	public static void main(String[] args) 
 	{ 
-		
+		//name the scanner
 		Scanner input = new Scanner(System.in);
+		
 		
 		System.out.print("Enter a 2-digit number: ");
 	int number = input.nextInt();

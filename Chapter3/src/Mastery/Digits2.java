@@ -14,24 +14,29 @@ Course: CS-20
 
 package Mastery;
 
+//Import scanner into project
 import java.util.Scanner;
 
 public class Digits2 {
 
 	public static void main(String[] args) {
 
+		//create a name for the scanner
 		Scanner input = new Scanner(System.in);
 		
+		//get the user to enter a 3 digit number
 		System.out.print("Enter a 3-digit number: ");
 	int number = input.nextInt();
 	
-	
+	//find the 100s 10s and 1s digit of the number
 	int hundreds = (number / 10) / 10;
 	int ones = number % 10;
 	int tens = (number % 100 - ones) / 10;
 	
+	//make sure the number is 3 digits
 	if (number >= 100 && number <= 999) {
-	    System.out.println("That's a 3-digit number!");
+	   //print 3 digits
+		System.out.println("That's a 3-digit number!");
 	    System.out.println("The hundreds digit number is: " + hundreds);
 	    System.out.println("The tens digit number is: " + tens);
 		System.out.println("the ones digit number is: " + ones);
