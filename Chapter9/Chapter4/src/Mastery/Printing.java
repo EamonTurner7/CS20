@@ -37,7 +37,7 @@ public class Printing {
         	PricePer = 0.26;
         } 
         else {
-            PricePee = 0.25;
+            PricePer = 0.25;
         }
 
         
