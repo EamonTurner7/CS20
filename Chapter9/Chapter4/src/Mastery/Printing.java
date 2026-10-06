@@ -1,3 +1,15 @@
+/*
+
+Program: Printing.java          Last Date of this Revision: October 5th 2026
+
+Purpose: Create a printing application that prompts the user for the number of copies to print then displays the price per copy and the total price for the job
+
+Author: Eamon Turner, 
+School: CHHS
+Course: CS 20 
+ 
+
+*/
 package Mastery;
 
 import java.util.Scanner;
@@ -25,7 +37,7 @@ public class Printing {
         	PricePer = 0.26;
         } 
         else {
-            PricePer = 0.25;
+            PricePee = 0.25;
         }
 
         
@@ -40,3 +52,16 @@ public class Printing {
 	}
 
 }
+
+/*
+Enter amount of copies to be printed: 67
+Price per copy is: 0.3
+Total cost is: 20.099999999999998 
+ 
+*/
+/*
+Enter amount of copies to be printed: 67
+Price per copy is: 0.3
+Total cost is: 20.099999999999998 
+ 
+*/
