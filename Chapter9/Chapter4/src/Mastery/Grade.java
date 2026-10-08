@@ -3,10 +3,6 @@
 Program: Grade.java          Last Date of this Revision: October 5th, 2026
 
 Purpose: Create a grade application that prompts the user for the percentage earned on a test or other graded work then displays the corresponding letter grade
-
-Author: Eamon Turner, 
-School: CHHS
-Course: CS 20 ??
  
 
 */

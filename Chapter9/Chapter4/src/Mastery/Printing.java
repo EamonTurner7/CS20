@@ -2,11 +2,7 @@
 
 Program: Printing.java          Last Date of this Revision: October 5th 2026
 
-Purpose: Create a printing application that prompts the user for the number of copies to print then displays the price per copy and the total price for the job
-
-Author: Eamon Turner, 
-School: CHHS
-Course: CS 20 
+Purpose: Create a printing application that prompts the user for the number of copies to print then displays the price per copy and the total price for the job 
  
 
 */
