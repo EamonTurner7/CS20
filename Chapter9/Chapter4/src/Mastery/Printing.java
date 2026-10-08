@@ -12,18 +12,24 @@ Course: CS 20
 */
 package Mastery;
 
+//Import the scanner
 import java.util.Scanner;
 
 public class Printing {
 
 	public static void main(String[] args) {
+		
+		//create a name for the scanner
 		Scanner input = new Scanner(System.in);
 
+		//get the user to enter an amount of copies
         System.out.print("Enter amount of copies to be printed: ");
         int copies = input.nextInt();
 
+        //Create a variable for the price per copy
         double PricePer = 0;
 
+        //find the the price per copy using the amount of copies
         if (copies <= 99 && copies >= 0) {
         	PricePer = 0.30;
         } 
@@ -41,7 +47,7 @@ public class Printing {
         }
 
         
-        
+        //print the price per copy and the total cost
         System.out.println("Price per copy is: " + PricePer);
 
        double cost = copies * PricePer;

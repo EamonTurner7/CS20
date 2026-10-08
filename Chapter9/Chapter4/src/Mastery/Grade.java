@@ -12,18 +12,24 @@ Course: CS 20 ??
 */
 package Mastery;
 
+//import scanner
 import java.util.Scanner;
 
 public class Grade {
 
 	public static void main(String[] args) {
+		
+		//Create name for scanner
 		Scanner input = new Scanner(System.in);
 
+		//get the user to enter the grade
         System.out.print("Enter your grade: ");
         int Percentage = input.nextInt();
 
+        //make grade a variable
         String Grade;
 
+        //find the correlation of grade to letter
         if (Percentage <= 100 && Percentage >= 90) {
         	Grade = "A";
         } 
@@ -41,6 +47,7 @@ public class Grade {
         
         }
         
+        //print the letter of your grade
         System.out.print("your grade fits in the category of: " + Grade);
         }
 
