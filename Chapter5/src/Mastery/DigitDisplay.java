@@ -20,8 +20,9 @@ public class DigitDisplay {
         int num = input.nextInt();
 
         while (num > 0) {
-            System.out.println(num % 10);
+        	System.out.println(num % 10);
             num = num / 10;
+            
         }
 
         input.close();
