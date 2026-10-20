@@ -14,18 +14,22 @@ import java.util.Scanner;
 public class DigitDisplay {
 
 	public static void main(String[] args) {
+		
+		//create the scanner
 		Scanner input = new Scanner(System.in);
-
+		
+		//ask user for a number
         System.out.print("Enter a non-negative integer: ");
         int num = input.nextInt();
-
+        
+        //put the number in a loop that prints each digit of your number on a separate line
         while (num > 0) {
         	System.out.println(num % 10);
             num = num / 10;
             
         }
-
-        input.close();
+        
+        
 	}
 }
 
