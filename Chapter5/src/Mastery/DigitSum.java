@@ -2,7 +2,7 @@
 
 Program:DigitSum.java          Last Date of this Revision: October 15th 2026
 
-Purpose: create an application that 
+Purpose: create an application that prompts the user for a non negative integer, and then displays the sum of all the digits added together 
  
 
 */
@@ -43,3 +43,11 @@ public class DigitSum {
 
 }
 
+/*
+Enter a non-negative integer: 654
+ the total of those numbers is: 15
+*/
+/*
+Enter a non-negative integer: 88
+ the total of those numbers is: 16
+*/
