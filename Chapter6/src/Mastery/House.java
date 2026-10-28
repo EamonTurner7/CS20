@@ -1,6 +1,6 @@
 /*
 
-Program:DigitSum.java          Last Date of this Revision: October 21th 2026
+Program:House.java          Last Date of this Revision: October 21th 2026
 
 Purpose: create an application that calls methods addRoof, addBase, and addWalk to display the following
  
@@ -63,17 +63,17 @@ public class House {
             addWalk();
         }
         else if (choice == 5) {
-            addRoof();
-            addBase();
+        	addRoof();
+        	addBase();
         }
         else if (choice == 6) {
-            addBase();
-            addWalk();
+        	addBase();
+        	addWalk();
         }
         else if (choice == 7) {
-            addRoof();
-            addBase();
-            addWalk();
+        	addRoof();
+        	addBase();
+        	addWalk();
         }
         else {
             System.out.println("Invalid choice");
