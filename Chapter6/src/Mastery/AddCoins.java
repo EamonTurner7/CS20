@@ -8,20 +8,26 @@ Purpose: create an application that prompts the user for the number of pennies, 
 */
 package Mastery;
 
-
+//import the scanner
 import java.util.Scanner;
+
 
 public class AddCoins {
 
+	// create the method
 	public static double getDollarAmount(double Quarters2, double Dimes2, double Nickels2, double Pennies2) {
+		
+		// find the sum of the coins and return it back to the main method
 		return Quarters2 + Dimes2 + Nickels2 + Pennies2;
 		
         
     }
 	public static void main(String[] args) {
 	
+		//name the scanner
 		Scanner input = new Scanner(System.in);
 		
+		//get the user to enter in all their coins
 		System.out.println("Enter All Your Coins");
 		System.out.println("Quarters: ");
 		int Quarters = input.nextInt();
@@ -35,6 +41,7 @@ public class AddCoins {
 		System.out.println("Pennies: ");
 		int Pennies = input.nextInt();
 		
+		//turn the coins into cents
 		double Quarters2 = Quarters * 0.25;
 		
 		double Dimes2 = Dimes * 0.10;
@@ -43,8 +50,10 @@ public class AddCoins {
 		
 		double Pennies2 = Pennies * 0.01;
 		
+		// create a variable that calls the method
 		double dollarAmount = getDollarAmount( Quarters2, Dimes2, Nickels2, Pennies2);
 		
+		// print that variable
 		System.out.print("total: $" + dollarAmount);
 	}
 
