@@ -1,4 +1,5 @@
 
+
 package SkillBuilders;
 
 public class Circle {
@@ -40,7 +41,7 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle3 with radius " + radius;
+        return "Circle with radius " + radius;
     }
 
     public static void main(String[] args) {
@@ -58,3 +59,4 @@ public class Circle {
         System.out.println(spot);
     }
 }
+
